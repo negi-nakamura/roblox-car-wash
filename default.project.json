@@ -1,0 +1,96 @@
+{
+	"globIgnorePaths": [
+		"**/package.json",
+		"**/tsconfig.json"
+	],
+	"name": "roblox-car-wash",
+	"tree": {
+		"$className": "DataModel",
+		"Lighting": {},
+		"ReplicatedFirst": {},
+		"ReplicatedStorage": {
+			"rbxts_include": {
+				"$path": "include",
+				"node_modules": {
+					"$className": "Folder",
+					"@flamework": {
+						"$path": "node_modules/@flamework"
+					},
+					"@rbxts": {
+						"$path": "node_modules/@rbxts"
+					},
+					"@rbxts-js": {
+						"$path": "node_modules/@rbxts-js"
+					}
+				}
+			},
+			"shared": {
+				"$className": "Folder",
+				"$ignoreUnknownInstances": false,
+				"features": {
+					"$className": "Folder",
+					"$ignoreUnknownInstances": false,
+					"ui": {
+						"$className": "Folder",
+						"$ignoreUnknownInstances": false,
+						"App": {
+							"$path": {
+								"optional": "out/features/ui/App.luau"
+							}
+						},
+						"Root": {
+							"$path": {
+								"optional": "out/features/ui/Root.luau"
+							}
+						}
+					}
+				}
+			}
+		},
+		"RobloxPluginGuiService": {},
+		"ServerScriptService": {
+			"server": {
+				"$className": "Folder",
+				"$ignoreUnknownInstances": false,
+				"Server": {
+					"$path": {
+						"optional": "out/Server.server.luau"
+					}
+				},
+				"features": {
+					"$className": "Folder",
+					"$ignoreUnknownInstances": false,
+					"plot": {
+						"$className": "Folder",
+						"$ignoreUnknownInstances": false,
+						"services": {
+							"$ignoreUnknownInstances": false,
+							"$path": {
+								"optional": "out/features/plot/services"
+							}
+						}
+					}
+				}
+			}
+		},
+		"ServerStorage": {},
+		"SoundService": {},
+		"StarterGui": {},
+		"StarterPack": {},
+		"StarterPlayer": {
+			"StarterCharacterScripts": {},
+			"StarterPlayerScripts": {
+				"client": {
+					"$className": "Folder",
+					"$ignoreUnknownInstances": false,
+					"Client": {
+						"$path": {
+							"optional": "out/Client.client.luau"
+						}
+					}
+				}
+			}
+		},
+		"Workspace": {}
+	}
+}

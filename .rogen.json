@@ -1,0 +1,31 @@
+{
+	"source": ["src"],
+	"ts": {
+		"output": "default.project.json",
+		"build": "out"
+	},
+	"project": {
+		"name": "roblox-car-wash",
+		"tree": {
+			"$className": "DataModel",
+			"ReplicatedStorage": {
+				"rbxts_include": {
+					"$path": "include",
+					"node_modules": {
+						"$className": "Folder",
+						"@rbxts": {
+							"$path": "node_modules/@rbxts"
+						},
+						"@rbxts-js": {
+							"$path": "node_modules/@rbxts-js"
+						},
+						"@flamework": {
+							"$path": "node_modules/@flamework"
+						}
+					}
+				}
+			}
+		},
+		"globIgnorePaths": ["**/package.json", "**/tsconfig.json"]
+	}
+}

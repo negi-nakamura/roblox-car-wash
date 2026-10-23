@@ -1,0 +1,8 @@
+{
+	"version": 1,
+	"flameworkVersion": "1.3.2",
+	"identifiers": {
+		"roblox-car-wash:out/features/plot/services/PlotService@PlotService": "features/plot/services/PlotService@PlotService"
+	},
+	"metadata": {}
+}
